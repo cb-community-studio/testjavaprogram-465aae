@@ -1,0 +1,51 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName testjavaprogram
+    blueprints []
+    buildTool maven
+    cacheProvider no
+    clientFramework react
+    clientPackageManager npm
+    clientTheme none
+    creationTimestamp 1683944632536
+    databaseType mongodb
+    devDatabaseType mongodb
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache false
+    enableSwaggerCodegen false
+    enableTranslation false
+    gradleEnterpriseHost ""
+    jhiPrefix jhi
+    jhipsterVersion "7.9.3"
+    jwtSecretKey "g/PnOlK578B+zem9vhVC/AVQlExrqnpUUP9gpVH0UIdl7ynYZmxBJxcFL0pNx4RS4hMul28bIOFCxXlUnE30Vnm18UBCAxrIaoHjExoEsrjBw+TfU1iITgxwZ+fDFQgrn3+BTjjT7/hGql4+e8G2F6KEFEdJcl1WZvuKba7npA=="
+    languages [en, fr]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName com.codebridgecommunity.testjavaprogram
+    prodDatabaseType mongodb
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  
+}
+
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
